@@ -1,0 +1,285 @@
+/* GLOBAL */
+
+#navBar-bg {
+    /* background: linear-gradient(to right, #89F7FE, #66A6FF);
+    border-style: outset; */
+    z-index: 9;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.h1-title {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke-color: transparent;
+    font-size: 20pt;
+    letter-spacing: 5pt;
+    color: white;
+    word-wrap:break-word;
+}
+
+.h2-g {
+    color: white;
+    font-size: 27pt;
+    font-weight: bolder;
+}
+    /*header box*/
+.hd-box {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    max-width: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    padding: 20px;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.list-inside {
+    list-style: inside;
+}
+
+/* HOME (index.html) */
+
+.body-index {
+    background: rgba(0,0,0,0.8) url("media/h_me_violin.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.text-list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bold;
+    font-size: 20pt;
+}
+
+.description-index {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    max-width: 1300px;    
+}
+
+.div-button-index {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/* ABOUT ME (about-me.html) */
+
+.body-about-me {
+    background: rgba(0,0,0,0.7) url("media/about-me-violin.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.h2-about-me {
+    color: white;
+    font-size: 32pt;
+    font-weight: bolder;
+}
+
+.hd-box2 {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+.description-about-me {
+    position: relative;
+    margin-top: 5%;
+    padding-left: 5%;
+    width: 85%
+}
+
+.p-about-me {
+    color: white;
+    font-size: 22pt;
+    font-weight: bolder;
+    text-align: left;
+}
+
+/* My Project (my-project.html) */
+
+.body-my-project {
+    background: rgba(0,0,0,0.6) url("media/my-game-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.h2-projects {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 30pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.p-projects {
+    color: white;
+    font-size: 22pt;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.title-box-projects {
+    background: rgba(145, 74, 225, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 350px;
+    border: 3px solid black;    
+}
+
+.description-projects {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 80%;
+    border: 3px solid black;
+    background: rgba(0, 0, 0, 0.523);  
+}
+
+.p-projects {
+    color: white;
+    font-size: 22pt;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+    /* youtube video*/
+.container {
+    margin-top: 5%;
+    max-width: 480px;  
+}
+
+.video-box {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* CONTACT (contact.html) */
+
+.flex-box {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.child {   
+    width: 200px;
+    height: 200px;
+    margin: 5%;  
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Media Query*/
+
+@media only screen and (max-width: 768px) {
+    
+    .h2-g {
+    color: white;
+    font-size: 25pt;
+    font-weight: bolder;
+    }
+
+    /* About Me */
+    .h2-about-me {
+        color: white;
+        font-size: 28pt;
+        font-weight: bolder;
+    }
+    
+    .p-about-me {
+        color: white;
+        font-size: 20pt;
+        font-weight: bolder;
+        text-align: left;
+    }
+
+    .p-projects {
+        color: white;
+        font-size: 18pt;
+        font-weight: bolder;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    
+    .h2-g {
+    color: white;
+    font-size: 16pt;
+    font-weight: bolder;
+    }
+
+    /* About Me */
+    .h2-about-me {
+        color: white;
+        font-size: 26pt;
+        font-weight: bolder;
+    }
+
+    .p-about-me {
+        color: white;
+        font-size: 16pt;
+        font-weight: bolder;
+        text-align: left;
+    }
+
+    .p-projects {
+        color: white;
+        font-size: 12pt;
+        font-weight: bolder;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
