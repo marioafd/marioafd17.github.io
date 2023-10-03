@@ -1,4 +1,4 @@
-# marioafd17.github.io
+# marioafd.github.io
 **MY PERSONAL PAGE**
 
 Hello! I'm Mario Silva, I made this page to put into practice my knowledge of HTML, CSS and Javascript.
